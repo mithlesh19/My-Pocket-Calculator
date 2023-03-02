@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+    background-color: rgb(204, 212, 212);
+}
+
+.button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 46px;
+    outline: none;
+    background: #6e52522b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.row {
+    margin:2px 19;
+}
+.row input {
+    border: black;
+    outline: auto;
+    margin: 10px;
+    padding: 0.2em;
+    border-radius: 73px;
+    background: #cf15152b;
+    color: rgb(13, 13, 13);
+    font-family: 'Exo', sans-serif;
+    font-size: 105%;
+    width: 163px;
+}
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background-color: rgb(120, 113, 113);
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+
+}
+button:hover {
+    background: #a745456b;
+}
